@@ -13,9 +13,7 @@
 		9ED881B325FAF52A00B96CC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED881B125FAF52A00B96CC6 /* Main.storyboard */; };
 		9ED881B525FAF52D00B96CC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED881B425FAF52D00B96CC6 /* Assets.xcassets */; };
 		9ED881B825FAF52D00B96CC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED881B625FAF52D00B96CC6 /* LaunchScreen.storyboard */; };
-		9ED881C225FB1F1A00B96CC6 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED881C125FB1F1A00B96CC6 /* Location.swift */; };
 		9ED881C925FB7BF900B96CC6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED881C825FB7BF900B96CC6 /* Utilities.swift */; };
-		9ED881CF25FB833200B96CC6 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED881CE25FB833200B96CC6 /* Locations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +25,7 @@
 		9ED881B425FAF52D00B96CC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ED881B725FAF52D00B96CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9ED881B925FAF52D00B96CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9ED881C125FB1F1A00B96CC6 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		9ED881C825FB7BF900B96CC6 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		9ED881CE25FB833200B96CC6 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +65,7 @@
 				9ED881B425FAF52D00B96CC6 /* Assets.xcassets */,
 				9ED881B625FAF52D00B96CC6 /* LaunchScreen.storyboard */,
 				9ED881B925FAF52D00B96CC6 /* Info.plist */,
-				9ED881C125FB1F1A00B96CC6 /* Location.swift */,
 				9ED881C825FB7BF900B96CC6 /* Utilities.swift */,
-				9ED881CE25FB833200B96CC6 /* Locations.swift */,
 			);
 			path = CLmini;
 			sourceTree = "<group>";
@@ -146,10 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ED881CF25FB833200B96CC6 /* Locations.swift in Sources */,
 				9ED881B025FAF52A00B96CC6 /* ViewController.swift in Sources */,
 				9ED881AC25FAF52A00B96CC6 /* AppDelegate.swift in Sources */,
-				9ED881C225FB1F1A00B96CC6 /* Location.swift in Sources */,
 				9ED881C925FB7BF900B96CC6 /* Utilities.swift in Sources */,
 				9ED881AE25FAF52A00B96CC6 /* SceneDelegate.swift in Sources */,
 			);
